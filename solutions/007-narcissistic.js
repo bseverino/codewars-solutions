@@ -27,9 +27,5 @@ function narcissistic(value) {
       return acc + val
     })
     
-    if (result === value) {
-      return true
-    }
-    
-    return false
+    return result === value
 }
